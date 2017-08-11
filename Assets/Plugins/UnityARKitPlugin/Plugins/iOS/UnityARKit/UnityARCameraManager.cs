@@ -10,8 +10,7 @@ public class UnityARCameraManager : MonoBehaviour {
 	private Material savedClearMaterial;
 
 	// Use this for initialization
-	void Start() 
-    {
+	void Start () {
 
 		m_session = UnityARSessionNativeInterface.GetARSessionNativeInterface();
 

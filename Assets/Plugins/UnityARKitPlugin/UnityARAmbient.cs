@@ -14,12 +14,12 @@ namespace UnityEngine.XR.iOS
 			UnityARSessionNativeInterface.ARFrameUpdatedEvent += UpdateAmbientIntensity;
         }
 
-		void UpdateAmbientIntensity(UnityARCamera cam)
+		void UpdateAmbientIntensity(UnityARCamera camera)
 		{
 			// Convert ARKit intensity to Unity intensity
 			// ARKit ambient intensity ranges 0-2000
 			// Unity ambient intensity ranges 0-8 (for over-bright lights)
-			float newai = cam.ambientIntensity;
+			float newai = camera.ambientIntensity;
 			l.intensity = newai / 1000.0f;
 		}
     }
