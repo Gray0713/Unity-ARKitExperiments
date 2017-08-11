@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5577f8ae8525541b1a043288dabd0fc4
+  - enabled: 1
+    path: Assets/Scenes/Bison.unity
+    guid: d5bb75b3c73554ca7a2b2c2b96d62977
+  - enabled: 0
+    path: Assets/Scenes/BasicScene.unity
+    guid: 6837740f496474677942999dcf0a173f
+  - enabled: 0
+    path: Assets/Plugins/UnityARKitPlugin/UnityARKitScene.unity
+    guid: c159f2591a9b5c843b0a0442451f78f8
+  - enabled: 0
+    path: Assets/Plugins/UnityARKitPlugin/UnityParticlePainter.unity
+    guid: 0327f0aa0142146c291df8203b848257
+  - enabled: 0
+    path: Assets/Plugins/UnityARKitPlugin/UnityARBallz.unity
+    guid: 75972bcfc855b486593ec2ec68da0b81
+  - enabled: 0
+    path: Assets/Plugins/UnityARKitPlugin/UnityARShadows.unity
+    guid: 14d17ec7304f440b48e6b953ba7a5895
+  - enabled: 0
+    path: Assets/Plugins/UnityARKitPlugin/UnityAROcclusion.unity
+    guid: 7f026c59fb9d6489ab924c6e0e119760
+  - enabled: 0
+    path: Assets/Plugins/UnityARKitPlugin/ARKitRemote/UnityARKitRemote.unity
+    guid: 3ed73c0c9d4b76a418a0541c0cefd3ac
